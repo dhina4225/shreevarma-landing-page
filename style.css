@@ -580,7 +580,15 @@ section:nth-child(even) {
 
 /* Blogs section End */
 
-/* Footer section Starta */
+/* Footer section Starting */
+.footer {
+    background: var(--backgraound-color) !important;
+    background-image: none !important;
+    width: 100% !important;
+}
+
+
+
 .footer .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
