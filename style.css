@@ -31,11 +31,10 @@ html {
 
 section {
     padding: 2rem 8%;
-    background: #fff;
 }
 
 section:nth-last-child(even) {
-    background-color: var(--backgraound-color);
+    background-color: var(--backgraound-color) !important;
 }
 
 
