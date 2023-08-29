@@ -581,12 +581,11 @@ section:nth-child(even) {
 /* Blogs section End */
 
 /* Footer section Starting */
-.footer {
+section:last-child {
     background: var(--backgraound-color) !important;
     background-image: none !important;
     width: 100% !important;
 }
-
 
 
 .footer .box-container {
