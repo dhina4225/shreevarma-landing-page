@@ -581,12 +581,14 @@ section:nth-child(even) {
 /* Blogs section End */
 
 /* Footer section Starting */
-section:last-child {
-    background: var(--backgraound-color) !important;
-    background-image: none !important;
-    width: 100% !important;
-}
 
+.footer {
+    background: var(--backgraound-color) !important;
+    /* width: 100% !important; */
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
 
 .footer .box-container {
     display: grid;
