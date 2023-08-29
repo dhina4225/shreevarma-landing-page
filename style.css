@@ -87,7 +87,7 @@ section:nth-child(odd) {
     margin-left: 1rem;
 }
 
-section:nth-last-child(odd) {
+section:nth-child(odd) {
     background: url(./ASSETS/web\ line\ art.png);
     background-size: 200px 200px;
     -webkit-animation: slidein 100s;
