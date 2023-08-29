@@ -34,7 +34,7 @@ section {
     background: #fff;
 }
 
-section:nth-child(odd) {
+section:nth-last-child(even) {
     background-color: var(--backgraound-color);
 }
 
