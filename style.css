@@ -588,6 +588,7 @@ section:nth-child(even) {
     display: flex;
     flex-direction: column;
     align-items: space-around;
+    text-transform: capitalize;
 }
 
 .footer .box-container {
