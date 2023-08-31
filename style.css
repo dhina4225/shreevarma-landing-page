@@ -52,6 +52,10 @@ section:nth-last-child(even) {
     color: var(--brown);
 }
 
+.navbar{
+    display: flex;
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
