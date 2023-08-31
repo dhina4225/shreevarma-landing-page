@@ -36,7 +36,6 @@ section:nth-last-child(even) {
     background-color: var(--backgraound-color) !important;
 }
 
-
 .heading {
     text-align: center;
     padding-bottom: 2rem;
@@ -52,7 +51,7 @@ section:nth-last-child(even) {
     color: var(--brown);
 }
 
-.navbar{
+.navbar {
     display: flex;
 }
 
