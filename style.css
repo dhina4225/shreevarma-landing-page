@@ -305,7 +305,7 @@ section:nth-child(even) {
 /* Service section Starts */
 .services .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
     gap: 2rem;
     margin-block: 3rem;
 }
