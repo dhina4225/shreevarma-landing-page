@@ -421,8 +421,8 @@ section:nth-child(even) {
 }
 
 .review .box-container .box img {
-    height: 10rem;
-    width: 10rem;
+    height: 15rem;
+    width: 15rem;
     border-radius: 50%;
     object-fit: cover;
     border: .5rem solid #fff;
