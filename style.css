@@ -52,7 +52,9 @@ section:nth-last-child(even) {
 }
 
 .navbar {
+    width: 50%;
     display: flex;
+    justify-content: flex-end;
 }
 
 .btn {
@@ -303,7 +305,7 @@ section:nth-child(even) {
 /* Service section Starts */
 .services .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     gap: 2rem;
     margin-block: 3rem;
 }
@@ -313,7 +315,7 @@ section:nth-child(even) {
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     border: var(--border);
-    padding: 2.5rem;
+    padding: 3.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -653,6 +655,10 @@ section:nth-child(even) {
     section {
         padding: 2rem;
     }
+
+    .navbar {
+        width: 80%;
+    }
 }
 
 @media (max-width:768px) {
@@ -664,10 +670,9 @@ section:nth-child(even) {
     .header .navbar {
         position: absolute;
         top: 115%;
-        right: 2rem;
         border-radius: .5rem;
         box-shadow: var(--box-shadow);
-        width: 30rem;
+        width: 50%;
         border: var(--border);
         background: #fff;
         transform: scale(0);
@@ -685,7 +690,7 @@ section:nth-child(even) {
     .header .navbar a {
         font-size: 2rem;
         display: block;
-        margin: 2.5rem;
+        margin: rem;
     }
 
 }
